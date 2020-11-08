@@ -1,0 +1,1 @@
+self.SetModel("models/bee2/props_overgrown/rusty_ball.mdl"); self.__KeyValueFromInt("skin", 0);

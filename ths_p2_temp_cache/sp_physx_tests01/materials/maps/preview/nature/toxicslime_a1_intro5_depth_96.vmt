@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/nature/toxicslime_a1_intro5.vmt"
+	"insert"
+	{
+		"$waterdepth"		"96"
+	}
+}
