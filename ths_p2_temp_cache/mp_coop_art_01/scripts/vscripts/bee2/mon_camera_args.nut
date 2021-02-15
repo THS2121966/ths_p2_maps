@@ -1,0 +1,11 @@
+CAM_NUM <- 0;
+CAM_ACTIVE_NUM <- 0;
+CAM_ACTIVE <- [];
+CAM_LOC <- [
+
+];
+CAM_ANGLES <- [
+
+];
+CAM_STUDIO_CHANCE <- -1;
+CAM_STUDIO_TURRET <- 0;
