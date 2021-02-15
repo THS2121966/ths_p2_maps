@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "47"
+	"mapversion" "49"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "59054"
-	"mapversion" "47"
+	"mapversion" "49"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -43264,6 +43264,41 @@ world
 }
 entity
 {
+	"id" "67530"
+	"classname" "color_correction"
+	"fadeInDuration" "2.3"
+	"fadeOutDuration" "2.3"
+	"filename" "materials/correction/cc_c3_main.raw"
+	"maxfalloff" "-1"
+	"maxweight" "1.0"
+	"minfalloff" "-1"
+	"spawnflags" "1"
+	"targetname" "cc_main"
+	"origin" "1184 8 157.138"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "67586"
+	"classname" "comp_pack"
+	"generic1" "materials/correction/cc_c3_main.raw"
+	"origin" "1200 8 157.138"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "65919"
 	"classname" "env_cubemap"
 	"cubemapsize" "7"
@@ -44750,7 +44785,7 @@ entity
 	"id" "62791"
 	"classname" "func_instance"
 	"angles" "-90 0 0"
-	"file" "instances/BEE2/70s/items/observation_room_256.vmf"
+	"file" "ths_maps/instances/mp_coop_art_01/observation_room_256.vmf"
 	"targetname" "orl2"
 	"origin" "1344 320 320"
 	editor

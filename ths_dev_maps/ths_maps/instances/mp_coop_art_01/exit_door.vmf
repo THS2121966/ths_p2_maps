@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "235"
+	"mapversion" "236"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "2"
-	"mapversion" "235"
+	"mapversion" "236"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -379,6 +379,7 @@ entity
 	{
 		"OnStartTouchBluePlayer" "scriptRunScriptCodeinp_player_inside(BLUE)0-1"
 		"OnStartTouchOrangePlayer" "scriptRunScriptCodeinp_player_inside(ORAN)0-1"
+		"OnStartTouchAll" "@music_stopTrigger01"
 	}
 	solid
 	{
