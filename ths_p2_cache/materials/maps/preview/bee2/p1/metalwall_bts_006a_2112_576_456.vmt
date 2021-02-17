@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/BEE2/P1/METALWALL_BTS_006A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/preview/c2112_576_456"
+	}
+}

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/BEE2/NO_PAINT/PLASTICWALL001B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/preview/c-2400_0_0"
+	}
+}
