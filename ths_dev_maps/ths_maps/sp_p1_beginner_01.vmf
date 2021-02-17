@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "26"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "59054"
-	"mapversion" "26"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -87301,6 +87301,14 @@ entity
 		"OnLoadGame" "@commandCommandsetmodel player/eggbot/eggbot0.1-1"
 		"OnMapSpawn" "viewmodelSkin20.1-1"
 		"OnMapSpawn" "weapon_portalgunSkin20-1"
+		"OnMapSpawn" "@commandCommandsetmodel player/eggbot/eggbot3-1"
+		"OnMapSpawn" "@commandCommandsetmodel player/eggbot/eggbot5-1"
+		"OnMapSpawn" "@commandCommandsetmodel player/eggbot/eggbot10-1"
+		"OnMapSpawn" "@commandCommandsetmodel player/eggbot/eggbot15-1"
+		"OnMapSpawn" "@commandCommandsetmodel player/eggbot/eggbot20-1"
+		"OnMapSpawn" "@commandCommandsetmodel player/eggbot/eggbot45-1"
+		"OnMapSpawn" "@commandCommandsetmodel player/eggbot/eggbot1-1"
+		"OnMapSpawn" "@commandCommandsetmodel player/eggbot/eggbot5-1"
 	}
 	"origin" "-2400 -2800 -224"
 	editor
