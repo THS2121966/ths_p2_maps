@@ -1,6 +1,0 @@
-LightmappedGeneric
-	{
-	$basetexture    BEE2/pc_grt
-	$surfaceprop    metalgrate
-	%playerclip     1
-	}

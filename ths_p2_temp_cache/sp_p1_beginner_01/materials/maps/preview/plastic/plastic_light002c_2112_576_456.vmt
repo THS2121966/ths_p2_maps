@@ -1,8 +1,0 @@
-"patch"
-{
-	"include"		"materials/PLASTIC/PLASTIC_LIGHT002C.vmt"
-	"replace"
-	{
-		"$envmap"		"maps/preview/c2112_576_456"
-	}
-}

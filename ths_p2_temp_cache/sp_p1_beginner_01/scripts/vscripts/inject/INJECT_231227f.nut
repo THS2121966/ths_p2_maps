@@ -1,1 +1,0 @@
-SPAWN_UP <- false; STOP_SND <- "plats/a2_laser_over_goo_platform_arrive.wav"

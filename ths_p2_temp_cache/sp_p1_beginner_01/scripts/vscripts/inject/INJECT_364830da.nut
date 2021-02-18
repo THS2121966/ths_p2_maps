@@ -1,1 +1,0 @@
-self.SetModel("models/bee2/props_ingame/p1_metal_box.mdl"); self.__KeyValueFromInt("skin", 0);

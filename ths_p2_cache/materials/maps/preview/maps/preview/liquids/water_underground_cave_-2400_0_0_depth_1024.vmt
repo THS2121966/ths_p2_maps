@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/preview/liquids/water_underground_cave_-2400_0_0.vmt"
+	"insert"
+	{
+		"$waterdepth"		"1024"
+	}
+}

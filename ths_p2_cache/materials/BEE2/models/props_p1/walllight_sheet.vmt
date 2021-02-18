@@ -1,5 +1,0 @@
-"VertexLitGeneric"
-{
-	$baseTexture "bee2/models/props_p1/walllight_sheet"
-	$selfillum 1
-}

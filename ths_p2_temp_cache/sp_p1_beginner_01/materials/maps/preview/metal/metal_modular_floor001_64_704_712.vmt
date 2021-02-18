@@ -1,8 +1,0 @@
-"patch"
-{
-	"include"		"materials/metal/metal_modular_floor001.vmt"
-	"replace"
-	{
-		"$envmap"		"maps/preview/c64_704_712"
-	}
-}

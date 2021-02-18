@@ -3,7 +3,11 @@
 "channel" "CHAN_STATIC"
 "soundlevel" "SNDLVL_NONE"
 "volume" "1"
-"wave" "#*BEE2/music/p1/android_hell.mp3"
+"rndwave"
+	{
+	"wave" "#*music/sp_a3_jump_intro_b1.wav"
+	"wave" "#*music/sp_a3_jump_intro_b2.wav"
+	}
 "soundentry_version" "2"
 "operator_stacks"
 	{
@@ -17,6 +21,16 @@
 		"volume_fade_out"
 			{
 			"input_max" "1.5"
+			}
+
+		"import_stack" "p2_update_music_play_gel"
+		"gel_play_entry"
+			{
+			"entry_name" "music.BEE2_gel_bounce"
+			}
+		"gel_stop_entry"
+			{
+			"match_entry" "music.BEE2_gel_bounce"
 			}
 
 		"import_stack" "p2_update_music_play_speed_gel"
@@ -47,12 +61,63 @@
 	}
 }
 
+"music.BEE2_gel_bounce"
+{
+"channel" "CHAN_STATIC"
+"soundlevel" "SNDLVL_NONE"
+"volume" "0.5"
+"rndwave"
+	{
+	"wave" "*music/sp_a3_jump_intro_z1.wav"
+	"wave" "*music/sp_a3_jump_intro_z1c.wav"
+	"wave" "*music/sp_a3_jump_intro_z2.wav"
+	"wave" "*music/sp_a3_jump_intro_z2c.wav"
+	}
+
+"soundentry_version" "2"
+"operator_stacks"
+	{
+	"start_stack"
+		{
+		"import_stack" "start_sync_to_entry"
+		"elapsed_time"
+			{
+			"entry" "music.BEE2"
+			}
+		"duration_div"
+			{
+			"input2" "1"
+			}
+		"div_mult"
+			{
+			"input1" "1.0"
+			}
+		}
+	"update_stack"
+		{
+		"import_stack" "update_music_stereo"
+		"volume_fade_in"
+			{
+			"input_max" "0.25"
+			}
+		"volume_fade_out"
+			{
+			"input_max" "1.5"
+			}
+		}
+	}
+}
+
 "music.BEE2_gel_speed"
 {
 "channel" "CHAN_STATIC"
 "soundlevel" "SNDLVL_NONE"
 "volume" "0.5"
-"wave" "*music/sp_a4_finale4_z2.wav"
+"rndwave"
+	{
+	"wave" "*music/sp_a3_jump_intro_z1b.wav"
+	"wave" "*music/sp_a3_jump_intro_z2b.wav"
+	}
 
 "soundentry_version" "2"
 "operator_stacks"
