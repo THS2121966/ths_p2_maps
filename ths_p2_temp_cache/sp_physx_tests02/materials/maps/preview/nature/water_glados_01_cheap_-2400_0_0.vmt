@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/WATER_GLADOS_01_CHEAP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/preview/c-2400_0_0"
+	}
+}

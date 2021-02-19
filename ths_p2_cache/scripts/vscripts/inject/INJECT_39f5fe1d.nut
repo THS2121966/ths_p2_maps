@@ -1,1 +1,0 @@
-self.SetModel("models/bee2/props_ingame/retro_companion.mdl"); self.__KeyValueFromInt("skin", 0);
