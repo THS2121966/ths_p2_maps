@@ -1,0 +1,16 @@
+lightmappedgeneric
+	{
+	$basetexture "paintblobs\blob_surface_bounce"
+	$surfaceprop "painted_surface"
+	
+	$bumpmap paint/splatnormal_default
+	$ssbump 1
+	
+	// Additionally add the prop_weighted_cube overlay, to make it a bit more detailed
+	$detail paint/prop_paint_blue
+	$detailblendmode 2
+	$detailscale 0.5
+	
+	$nodecal "1" // Stop 'target' decal from being applied
+	%nopaint 1 // Don't allow paint to be applied to this..
+	}

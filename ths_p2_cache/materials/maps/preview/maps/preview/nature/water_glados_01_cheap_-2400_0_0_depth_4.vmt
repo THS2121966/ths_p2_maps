@@ -1,8 +1,0 @@
-"patch"
-{
-	"include"		"materials/maps/preview/nature/water_glados_01_cheap_-2400_0_0.vmt"
-	"insert"
-	{
-		"$waterdepth"		"4"
-	}
-}
