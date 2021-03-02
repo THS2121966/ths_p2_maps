@@ -1,8 +1,0 @@
-"patch"
-{
-	"include"		"materials/wood/underground_plywood_01a.vmt"
-	"replace"
-	{
-		"$envmap"		"maps/preview/c544_1472_384"
-	}
-}
