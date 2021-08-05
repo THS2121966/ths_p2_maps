@@ -5,6 +5,8 @@
 "volume" "1"
 "rndwave"
 	{
+	"wave" "#*music/sp_a3_jump_intro_b1.wav"
+	"wave" "#*music/sp_a3_jump_intro_b2.wav"
 	}
 "soundentry_version" "2"
 "operator_stacks"
@@ -56,9 +58,8 @@
 "volume" "0.5"
 "rndwave"
 	{
-	"wave" "*music/sp_a3_bomb_flings_z2.wav"
-	"wave" "*music/sp_a3_bomb_flings_z2b.wav"
-	"wave" "*music/sp_a3_bomb_flings_z2c.wav"
+	"wave" "*music/sp_a3_jump_intro_z1b.wav"
+	"wave" "*music/sp_a3_jump_intro_z2b.wav"
 	}
 
 "soundentry_version" "2"

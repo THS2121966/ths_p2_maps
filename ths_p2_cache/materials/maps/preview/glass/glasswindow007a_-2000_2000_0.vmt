@@ -1,8 +1,0 @@
-"patch"
-{
-	"include"		"materials/glass/glasswindow007a.vmt"
-	"replace"
-	{
-		"$envmap"		"maps/preview/c-2000_2000_0"
-	}
-}

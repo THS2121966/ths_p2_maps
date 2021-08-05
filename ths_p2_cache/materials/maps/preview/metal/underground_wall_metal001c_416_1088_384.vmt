@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/UNDERGROUND_WALL_METAL001C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/preview/c416_1088_384"
+	}
+}

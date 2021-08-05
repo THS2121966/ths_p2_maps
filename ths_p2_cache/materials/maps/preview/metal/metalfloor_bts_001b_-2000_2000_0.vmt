@@ -1,8 +1,0 @@
-"patch"
-{
-	"include"		"materials/metal/metalfloor_bts_001b.vmt"
-	"replace"
-	{
-		"$envmap"		"maps/preview/c-2000_2000_0"
-	}
-}
