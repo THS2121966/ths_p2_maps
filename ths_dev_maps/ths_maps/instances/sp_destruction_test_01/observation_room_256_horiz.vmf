@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "222"
+	"mapversion" "224"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -101,7 +101,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "222"
+	"mapversion" "224"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1895,6 +1895,7 @@ entity
 		"OnTrigger" "flashlightAlwaysUpdateOff3.1-1"
 		"OnTrigger" "flashlightSetPatternz3-1"
 		"OnTrigger" "light_switch_initial_soundPlaySound0-1"
+		"OnTrigger" "relay_light_on_io_eventTrigger3-1"
 	}
 	"origin" "-128 -44 48"
 	editor
@@ -2179,13 +2180,32 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "5767"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"targetname" "relay_light_on_io_event"
+	connections
+	{
+		"OnTrigger" "ioProxyRelay0-1"
+	}
+	"origin" "-112 -96 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[27.2509 107.494 44.2948]"
-		"look" "[-153.567 -72.0649 -17.3542]"
+		"position" "[11.821 71.5236 55.3274]"
+		"look" "[-192.072 -76.6064 -16.9384]"
 	}
 	camera
 	{
