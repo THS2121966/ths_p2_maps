@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "220"
+	"mapversion" "222"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -101,7 +101,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "220"
+	"mapversion" "222"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1811,6 +1811,7 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_light" "183 204 218 250"
+	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
@@ -1818,7 +1819,6 @@ entity
 	"spawnflags" "1"
 	"style" "0"
 	"targetname" "light_observation_room"
-	"_lightHDR" "-1 -1 -1 1"
 	"origin" "-136 -64 16"
 	editor
 	{
@@ -1855,7 +1855,7 @@ entity
 	"id" "2982"
 	"classname" "env_projectedtexture"
 	"angles" "12 0 0"
-	"brightnessscale" "6"
+	"brightnessscale" "15"
 	"cameraspace" "0"
 	"colortransitiontime" "0.5"
 	"enableshadows" "1"
@@ -1894,6 +1894,7 @@ entity
 		"OnUser4" "flashlightKill0-1"
 		"OnTrigger" "flashlightAlwaysUpdateOff3.1-1"
 		"OnTrigger" "flashlightSetPatternz3-1"
+		"OnTrigger" "light_switch_initial_soundPlaySound0-1"
 	}
 	"origin" "-128 -44 48"
 	editor
@@ -1968,10 +1969,10 @@ entity
 	"message" "World.LightPowerOnMd"
 	"pitch" "100"
 	"pitchstart" "100"
-	"radius" "1850"
+	"radius" "3800"
 	"spawnflags" "48"
 	"targetname" "light_switch_sound"
-	"origin" "-128 -67 48"
+	"origin" "-126 -66 46"
 	editor
 	{
 		"color" "220 30 220"
@@ -2158,13 +2159,33 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "5731"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "VFX.LightFlickerEndMedium"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "2850"
+	"spawnflags" "48"
+	"targetname" "light_switch_initial_sound"
+	"origin" "-126 -66 30"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[59.4734 56.2588 62.2325]"
-		"look" "[-119.896 -116.946 -18.785]"
+		"position" "[27.2509 107.494 44.2948]"
+		"look" "[-153.567 -72.0649 -17.3542]"
 	}
 	camera
 	{
