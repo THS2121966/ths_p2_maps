@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "218"
+	"mapversion" "220"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -101,7 +101,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "218"
+	"mapversion" "220"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1857,12 +1857,12 @@ entity
 	"id" "2982"
 	"classname" "env_projectedtexture"
 	"angles" "8 0 -180"
-	"brightnessscale" "8"
+	"brightnessscale" "15"
 	"cameraspace" "0"
 	"colortransitiontime" "1"
 	"enableshadows" "1"
 	"farz" "1024"
-	"lightcolor" "123 156 181 850"
+	"lightcolor" "123 156 181 1500"
 	"lightfov" "90"
 	"lightonlytarget" "0"
 	"lightworld" "1"
@@ -2147,8 +2147,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[82.4972 17.1705 12.6976]"
-		"look" "[-145.344 -67.5615 -85.5157]"
+		"position" "[98.89 118.876 48.0784]"
+		"look" "[-112.203 -34.4929 22.4949]"
 	}
 	camera
 	{
